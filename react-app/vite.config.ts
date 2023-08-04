@@ -13,7 +13,7 @@ export default defineConfig({
 		eslint({
 			cache: false,
 			include: ['./src/**/*.ts', './src/**/*.tsx'],
-			exclude: ['./src/shadcn-components/**'],
+			exclude: ['./src/shadcn-components/**', './src/lib/**'],
 			lintOnStart: true,
 		}),
 	],
